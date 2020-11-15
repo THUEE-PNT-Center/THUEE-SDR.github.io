@@ -15,7 +15,7 @@
 	setInterval(function() {
 		if (didScroll) {
 			didScroll = false;
-			//changeHeader();
+			changeHeader();
 		}
 	}, 100);
 
