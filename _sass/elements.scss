@@ -24,7 +24,7 @@ img {
 	max-width: 100%;
 }
 
-h1 strong, h2 strong {
+h1 strong, h2 strong, h6 strong {
 	font-weight: 700;
 }
 
@@ -41,7 +41,7 @@ h2 {
 	line-height: 1.2em;
 }
 
-h22 {
+h6 {
 	font-weight: 300;
 	font-size: 2em;
 	margin: 0 0 30px 0;
@@ -59,7 +59,7 @@ h2 a {
 		text-decoration: none;
 	}
 }
-h22 a {
+h6 a {
 	color: #000;
 
 	&:hover {
