@@ -1,17 +1,25 @@
 ---
 title: 系统演示
-description: This page doesn't exist!
+description: 系统演示视频
 image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
-permalink: /404.html
-layout: page
 ---
-<script src='//player.polyv.net/script/polyvplayer.min.js'></script>
-<div id='plv_62cc4d8f2e3bf4bc81d854f8b46febc2_6'></div>
-<script>
-var player = polyvObject('#plv_62cc4d8f2e3bf4bc81d854f8b46febc2_6').videoPlayer({
-    'width':'600',
-  'height':'338',
-    'vid' : '62cc4d8f2e3bf4bc81d854f8b46febc2_6' ,
- 'forceH5':true 
-});
-</script>
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h2 class="editable">系统演示</h2>
+			<p class="subtext editable">视频加载可能需要一段时间，请耐心等待</p>
+		</div>
+	</div>
+	<script src='//player.polyv.net/script/polyvplayer.min.js'></script>
+	<div id='plv_62cc4d8f2e3bf4bc81d854f8b46febc2_6'></div>
+	<script>
+	var player = polyvObject('#plv_62cc4d8f2e3bf4bc81d854f8b46febc2_6').videoPlayer({
+		'width':'600',
+	  'height':'338',
+		'vid' : '62cc4d8f2e3bf4bc81d854f8b46febc2_6' ,
+	 'forceH5':true 
+	});
+	</script>
+</section>
+
